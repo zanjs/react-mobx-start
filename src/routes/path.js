@@ -5,8 +5,8 @@ const routePath = {
     count: '/count',
     histtory: '/history',
     topics: '/topics',
-    lazyRoute: '/lazy-route',
-    notFound: '404',
+    iframe: '/iframe',
+    notFound: '/404',
 }
 
 

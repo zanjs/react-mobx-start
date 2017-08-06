@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {NavLink} from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 import RoutePath from '../../routes/path'
 
@@ -13,9 +13,8 @@ class Header extends Component {
                 <li><NavLink strict to={RoutePath.count} activeClassName="active">count</NavLink></li>
                 <li><NavLink strict to={RoutePath.histtory} activeClassName="active">history</NavLink></li>
                 <li><NavLink strict to={RoutePath.topics} activeClassName="active">topics</NavLink></li>
-                <li><NavLink strict to="/tacos" activeClassName="active">Tacos</NavLink></li>
-                <li><NavLink strict to={RoutePath.lazyRoute} activeClassName="active">lazyRoute</NavLink></li>
-                <li><NavLink strict to="/404" activeClassName="active">404</NavLink></li>
+                <li><NavLink strict to={RoutePath.iframe} activeClassName="active">iframe</NavLink></li>
+                <li><NavLink strict to={RoutePath.notFound} activeClassName="active">404</NavLink></li>
             </ul>
             </header>
         );

@@ -44,6 +44,12 @@ class RouteComment extends Component {
               <RouteLazy {...props} component={import("../pages/about")} />
             )}
           />
+           <Route
+            path={RoutePath.iframe}
+            render={props => (
+              <RouteLazy {...props} component={import("../pages/iframe")} />
+            )}
+          /> 
             <Route component={NotFound}/> 
          </Switch> 
         </div>
